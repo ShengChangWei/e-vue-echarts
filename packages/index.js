@@ -1,7 +1,7 @@
-import EVueTest from './e-vue-test/e-vue-test';
+import EVueEcharts from './e-vue-echarts/e-vue-echarts';
 
 const components = [
-    EVueTest
+    EVueEcharts
 ];
 
 const install = function (Vue) {
@@ -16,5 +16,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
     install,
-    EVueTest
+    EVueEcharts
 }
