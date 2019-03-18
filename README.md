@@ -20,7 +20,7 @@
 3. template
 
 	```html
-	<EVueEcharts style="width: 600px; height: 400px;" :options="options" v-on:ready="onEChartsReady($event)"></EVueEcharts>
+	<e-vue-echarts style="width: 600px; height: 400px;" :options="options" v-on:ready="onEChartsReady($event)"></e-vue-echarts>
 	```
 
 4. component
@@ -110,7 +110,7 @@
         ]
     };
     
-    onEChartsReady(evt: any) {
+    onEChartsReady(evt) {
         console.log(evt);
     }
 	```

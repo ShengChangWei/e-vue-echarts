@@ -1,6 +1,6 @@
 {
   "name": "e-vue-echarts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于Vue的Echarts图表组件",
   "main": "lib/e-vue-echarts.common.js",
   "keywords": [
@@ -8,6 +8,11 @@
     "echarts",
     "shengchangwei"
   ],
+  "homepage": "https://github.com/ShengChangWei/e-vue-echarts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShengChangWei/e-vue-echarts.git"
+  },
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<EVueEcharts :options="options" v-on:ready="onEChartsReady($event)"></EVueEcharts>
+		<e-vue-echarts :options="options" v-on:ready="onEChartsReady($event)"></e-vue-echarts>
 	</div>
 </template>
 
@@ -99,9 +99,7 @@
 	};
 
 onEChartsReady(event: any) {
-	console.log(event)
 }
-        private msg: string = '我是测试文件';
     }
 </script>
 

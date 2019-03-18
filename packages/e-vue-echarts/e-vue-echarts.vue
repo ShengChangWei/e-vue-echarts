@@ -56,7 +56,7 @@
             });
             this.echartsIntance.on('mousemove', (params: any) => {
                 this.chartMouseMove(params);
-            });
+            }); 
             this.echartsIntance.on('mouseup', (params: any) => {
                 this.chartMouseUp(params);
             });
